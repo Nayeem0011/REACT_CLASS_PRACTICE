@@ -12,8 +12,10 @@ const ProfileCard = (props) => {
        {/* Props practice */}
        <div className='card'>
           <h3>{props.name}</h3>
-          <p>Email:{props.email}</p>
+          <p>Id: {props.id}</p>
+          <p>Email: {props.email}</p>
           <p>Bio: {props.bio}</p>
+          <p>Phone: {props.phone}</p>
       </div> 
 
     </>
