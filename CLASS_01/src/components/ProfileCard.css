@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: blueviolet;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    display: inline-block;
+    color: white;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+
+
+
