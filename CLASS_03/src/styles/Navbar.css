@@ -1,0 +1,11 @@
+
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #566D7E;
+}
+
+ul {
+    display: flex;
+    padding: 16px 8px;
+}
