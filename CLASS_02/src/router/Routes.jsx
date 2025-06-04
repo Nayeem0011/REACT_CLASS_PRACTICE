@@ -1,16 +1,48 @@
 import { createBrowserRouter } from "react-router";
+import About from "../page/About";
+import Homepage from "../page/Homepage";
+import Contact from "../page/Contact";
+import MainLayout from "../layout/MainLayout";
+import Blog from "../page/Blog";
+import SignUp from "../page/SignUp";
+import Login from "../page/Login";
+import NotFound from "../page/NotFound";
+import BlogDetails from "../page/BlogDetails";
 
-export const value = createBrowserRouter([
+export const routes = createBrowserRouter([
     {
       path:"/",
-      element:<div>Hello react router</div>
-    },
-    {
+      element:<MainLayout/>,
+      children: [
+     {
       path:"/about",
-      element:<div>About Page</div>
+      element:<About/>
+     },
+     {
+      path:"/contact",
+      element:<Contact/>
     },
     {
-      path:"/contact",
-      element:<div>Contact Page</div>
+      path:"/blog",
+      element:<Blog/>
+    },
+    {
+      path:"/blog/:id",
+      element:<BlogDetails/>
     }
+      ]
+    },
+    {
+      path:"/sing-up",
+      element:<SignUp/>
+    },
+    {
+      path:"/login",
+      element:<Login/>
+    },
+    {
+      path:"*",
+      element:<NotFound/>
+    }
+    
   ])

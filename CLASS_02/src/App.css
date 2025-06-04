@@ -23,12 +23,12 @@ button:hover {
     box-shadow: none;
 }
 
-a {
+.navbar {
     color: #fff;
     font-weight: 500;
 }
 
-.navbar-container ul li a{
+.navbar-container ul li {
     text-decoration: none;
     transition: .5s
 }
@@ -39,8 +39,8 @@ a {
     transition: 1.5s;
 }
 
-.navbar-container ul li:hover a,
-.navbar-container ul li.active a {
+.navbar-container ul li:hover,
+.navbar-container ul li.active {
     color: #7cf03d;
 }
 

@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Footer = () => {
   return (
-    <>
+    <Fragment>
       <section className='footer-container'>
         
       </section>
-    </>
+    </Fragment>
   )
 }
 

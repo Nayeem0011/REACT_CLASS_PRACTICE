@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react'
-import Navbar from './Navbar'
 
-const Header = () => {
+const SignUp = () => {
   return (
     <Fragment>
-      <Navbar/>
+      <h1>This is signup page</h1>
     </Fragment>
   )
 }
 
-export default Header
+export default SignUp
