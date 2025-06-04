@@ -25,23 +25,19 @@ button:hover {
 
 .navbar {
     color: #fff;
-    font-weight: 500;
+    text-decoration: none;
+    font-weight: 550;
+    transition: .5s
 }
 
-.navbar-container ul li {
-    text-decoration: none;
-    transition: .5s
+.navbar:hover {
+    color: #7cf03d;
 }
 
 .navbar-container {
     font-size: 20px;
     font-weight: 500;
     transition: 1.5s;
-}
-
-.navbar-container ul li:hover,
-.navbar-container ul li.active {
-    color: #7cf03d;
 }
 
 .content {
