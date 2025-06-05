@@ -20,7 +20,13 @@ function App() {
               name='name' 
               id='name'/>
           </div>
-          
+          <div>
+              <label htmlFor="email">Your email</label>
+              <input type="email" 
+              placeholder='Enter your email' 
+              name='email' 
+              id='email'/>
+          </div>
           <div>
               <label htmlFor="email">Your password</label>
               <input type="password" 
