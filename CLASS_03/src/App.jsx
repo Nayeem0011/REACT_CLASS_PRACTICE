@@ -13,7 +13,13 @@ function App() {
       <form onSubmit={submitHandler}>
         <div className='form-container'>
           
-          
+          <div>
+              <label htmlFor="name">Your name</label>
+              <input type="text" 
+              placeholder='Enter your name' 
+              name='name' 
+              id='name'/>
+          </div>
           <div>
               <label htmlFor="email">Your email</label>
               <input type="email" 
