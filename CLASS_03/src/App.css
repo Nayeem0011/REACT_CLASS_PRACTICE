@@ -1,1 +1,29 @@
+.containe{
+    width: 1200px;
+    margin: 0 auto;
+}
 
+.form-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 1200px;
+    margin: 0 auto;
+    padding:16px;
+    border-radius: 10px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(88, 88, 245);
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
